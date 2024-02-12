@@ -8,3 +8,6 @@ def home():
     name = request.args.get("name", default="None")
     return name
 
+
+if __name__ == "__main__":
+    app.run()
